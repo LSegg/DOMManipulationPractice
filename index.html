@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Score Keeper</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+        />
+    </head>
+
+    <body>
+        <section class="section">
+        <section id="intro">
+            <div class="container">
+                <div class="column is-half is-offset-one-quarter is-centered">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img
+                                    src="assets/lisa-keffer-KTDP7pRKNrU-unsplash.jpg"
+                                    alt="Ping pong paddles and a ball over a table"
+                                />
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title is-centered">
+                                Ping Pong Score Keeper
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1">
+                                    <span id="p1display">0</span>
+                                    <span> to </span>
+                                    <span id="p2display">0</span>
+                                </h1>
+                                <p class="subtitle">Use the buttons below to keep score</p>
+                                <div class="settings-container">
+                                    <label
+                                    for="setsQty"
+                                    class="label is-large is-inline"
+                                    >Playing to best of</label>
+                                    <div class="select is-rounded">
+                                        <select name="setsQty" id="setsQty">
+                                            <option value="3">3</option>
+                                            <option value="5">5</option>
+                                            <option value="7">7</option>
+                                            <option value="9">9</option>
+                                            <option value="11">11</option>
+                                        </select>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button
+                                id="p1btn"
+                                class="is-info button card-footer-item is-large"
+                            >
+                                +1 Player One
+                            </button>
+                            <button
+                                id="p2btn"
+                                class="is-danger button card-footer-item is-large"
+                            >
+                                +1 Player Two
+                            </button>
+                            <button
+                                id="reset"
+                                class="is-dark button card-footer-item is-large"
+                            >
+                                Reset
+                            </button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>

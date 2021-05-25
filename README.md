@@ -24,6 +24,6 @@ A text editor like [Visual Studio Code](https://code.visualstudio.com/) and a de
 
 ## License 📄
 
-This project is under (MIT License) - See the file [LICENSE.md](LICENSE.md) for more details
+This project is under (MIT License) - See the file [LICENSE](LICENSE) for more details
 
 ---
